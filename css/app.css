@@ -19,12 +19,11 @@ DEBUG RULES
 
 .debug .header-main {
 	background-color: #add8e6;
-	padding: 30px 0;
+	padding: 20px 0;
     
 }
 
-.debug .container,
-.debug .container-small {
+.debug .container {
 	padding: 20px;
 	border: 4px dashed tomato;
 }
@@ -51,5 +50,5 @@ DEBUG RULES
 
 .debug .footer-main {
 	background-color: grey;
-	padding: 30px 0;
+	padding: 20px 0;
 }
