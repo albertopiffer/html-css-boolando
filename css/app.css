@@ -4,12 +4,50 @@
 	box-sizing: border-box;
 }
 
+.header-main {
+	background-color: #ff6900;
+	padding: 20px 0;
+    
+    justify-content: space-between;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 450px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+	color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.logo-b {
+    max-height: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .row {
 	display: flex;
     justify-content: center;
     
 	padding: 30px;
-    margin: 0 450px;
+    max-width: 1100px;
 
     gap: 20px;
     flex-wrap: wrap;
@@ -22,6 +60,7 @@
 
 .card {
     margin-bottom: 30px;
+    position: relative;
 }
 
 .brand {
@@ -41,22 +80,44 @@
     font-size: 14px;
 }
 
+.discount {
+    background-color: red;
+    padding: 5px 10px;
+    position: absolute;
+    top: 380px;
+
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sosten {
+    background-color: green;
+    padding: 5px 10px;
+    position: absolute;
+    top: 380px;
+
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .card img {
-	min-height: 450px;
     max-width: 300px;
 }
 
-
+.footer-main {
+	background-color: #1a1a1a;
+	padding: 20px 0;
+}
 
 /**************** 
 DEBUG RULES
 ****************/
 
-.debug .header-main {
-	background-color: #add8e6;
-	padding: 20px 0;
-    
-}
+
 
 .debug .container {
 	padding: 20px;
@@ -72,9 +133,4 @@ DEBUG RULES
     
     min-height: 450px;
     min-width: 300px;
-}
-
-.debug .footer-main {
-	background-color: grey;
-	padding: 20px 0;
 }
