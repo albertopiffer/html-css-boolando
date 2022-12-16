@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/**************** 
+DEBUG RULES
+remove classe debug from body to disable
+****************/
+
+.debug .header-main {
+	background-color: #add8e6;
+	padding: 20px 0;
+}
+
+.debug .container,
+.debug .container-small {
+	padding: 20px;
+	border: 4px dashed tomato;
+}
+
+.debug .row {
+	border: 4px dotted cornflowerblue;
+	padding: 30px;
+
+    gap: 20px;
+}
+
+.debug [class^='card'] {
+	border: 3px solid black;
+	padding: 5px 15px;
+}
+
+.debug main [class^='card'] {
+	min-height: 450px;
+    min-width: 300px;
+}
