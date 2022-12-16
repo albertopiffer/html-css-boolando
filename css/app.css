@@ -97,6 +97,7 @@
     padding: 5px 10px;
     position: absolute;
     top: 380px;
+    left: 60px;
 
     color: white;
     font-family: sans-serif;
@@ -113,24 +114,3 @@
 	padding: 20px 0;
 }
 
-/**************** 
-DEBUG RULES
-****************/
-
-
-
-.debug .container {
-	padding: 20px;
-	border: 4px dashed tomato;
-}
-
-.debug .row {
-	border: 4px dotted cornflowerblue;
-}
-
-.debug .card {
-	/*border: 3px solid black;*/
-    
-    min-height: 450px;
-    min-width: 300px;
-}
