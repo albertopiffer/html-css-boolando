@@ -7,9 +7,44 @@
 .row {
 	display: flex;
     justify-content: center;
+    
+	padding: 30px;
+    margin: 0 450px;
+
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
+.main [class^='card'] {
+	min-height: 450px;
+    min-width: 300px;
+}
 
+.card {
+    margin-bottom: 30px;
+}
+
+.brand {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.item-name {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.price {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card img {
+	min-height: 450px;
+    max-width: 300px;
+}
 
 
 
@@ -30,21 +65,12 @@ DEBUG RULES
 
 .debug .row {
 	border: 4px dotted cornflowerblue;
-	padding: 30px;
+}
+
+.debug .card {
+	/*border: 3px solid black;*/
     
-    margin: 0 450px;
-
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.debug [class^='card'] {
-	border: 3px solid black;
-	padding: 5px 15px;
-}
-
-.debug main [class^='card'] {
-	min-height: 450px;
+    min-height: 450px;
     min-width: 300px;
 }
 
