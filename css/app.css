@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
 
-    margin: 0 450px;
+    margin: 0 530px;
 }
 
 .menu {
@@ -105,6 +105,26 @@
     font-weight: 600;
 }
 
+.nodisc {   /* sistema la posizione della label sostenibilità nel caso non ci sia una label sconto */
+    left: 0px;
+}
+
+.wish {
+    position: absolute;
+
+    background-color: white;
+
+    min-height: 30px;
+    min-width: 30px;
+
+    top: 30px;
+    right: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card img {
     max-width: 300px;
 }
@@ -114,3 +134,18 @@
 	padding: 20px 0;
 }
 
+.foot-container {
+    color: white;
+    font-family: sans-serif;
+
+    margin-left: 530px;
+}
+
+.foot-container p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.foot-container .menu {
+    font-size: 13px;
+}
